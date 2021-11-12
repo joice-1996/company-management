@@ -1,0 +1,37 @@
+.login-wrapper {
+    background: rgb(66, 37, 135);
+    background: linear-gradient(221deg, rgba(66, 37, 135, 1) 32%, rgba(194, 40, 82, 1) 85%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form-wrapper {
+        @include border-radius(30px);
+        background: #fff;
+        padding: 2.5rem;
+        width: 420px;
+        margin-top: 1.5rem;
+@include box-shadow(0, 10px, 15px, 0, rgb(0 0 0 / 10%))
+    }
+
+    button {
+        @extend .primary-btn;
+        height: 48px;
+        width: 240px;
+        font-size: 16px;
+    }
+
+    .form-control {
+        height: 44px;
+        margin: 20px 0 30px;
+    }
+
+    .forgot-pass {
+        font-size: 12px;
+        margin: 35px 0 0;
+        a{
+            color: $text-color;
+        }
+    }
+}

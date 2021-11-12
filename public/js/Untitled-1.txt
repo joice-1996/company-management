@@ -1,0 +1,25 @@
+controller dat => product_pluced in js 
+
+[id:value
+id2:value2
+]
+
+table row of name product_plucked[id2]
+
+
+[{id, licen,amount}]
+
+
+table 
+th 
+tr for tabledata 
+td
+
+client data 
+tabledata = [{
+    id:core ,start:value
+},{
+    id:core ,start:value
+},{
+    id:core ,start:value
+}]

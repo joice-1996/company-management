@@ -1,0 +1,32 @@
+.table1{
+    display:none;
+}
+
+.customize{
+    display:none;
+}
+
+#btn-branch{
+    display:none;
+}
+
+#btn-phone{
+    display:none;
+}
+
+.product_add
+{
+    display:none;
+}
+#proimage
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #512DA8;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px 0;
+}

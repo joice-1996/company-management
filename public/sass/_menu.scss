@@ -1,0 +1,31 @@
+.left-menu {
+    width: 230px;
+    background: rgb(66, 37, 135);
+    background: linear-gradient(0deg, rgba(66, 37, 135, 1) 18%, rgba(194, 40, 82, 1) 100%);
+    position: fixed;
+    height: 100vh;
+    padding-top: 80px;
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 22px 0;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 13px;
+
+            i {
+                float: left;
+                width: 32px;
+                font-size: 16px;
+                &.icon-company{
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

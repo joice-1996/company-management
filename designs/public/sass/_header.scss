@@ -1,0 +1,80 @@
+.main-header {
+
+    padding: 0 30px 0;
+    height: 60px;
+    @include border-radius-one(30px, 0, 0, 0);
+    background: $light-bg-color;
+
+    .left {
+        margin-top: 20px;
+        color: $light-text;
+    }
+
+    .right {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 8px;
+    }
+
+    .profile-img {
+        height: 42px;
+        width: 42px;
+        @include border-radius(50px);
+        border: 1px solid;
+        margin-left: 8px;
+    }
+
+    .icon-bell {
+        font-size: 18px;
+        color: #cbcbcc;
+    }
+
+    .dropdown-toggle {
+        display: flex;
+        align-items: center;
+        border: 0;
+        background: none;
+
+
+    }
+
+    .dropdown-menu {
+        font-size: 0.8rem;
+    }
+
+    .dropdown.notification {
+        .dropdown-toggle {
+            &:after {
+                border: 0;
+            }
+
+        }
+
+        .dropdown-menu {
+            width: 350px;
+            padding: 10px;
+
+            .colum-row {
+                padding: 6px 12px;
+                background: $light-bg-color;
+                font-size: 0.7rem;
+                margin-bottom: 1px;
+                @include border-radius(4px);
+
+                p {
+                    margin: 2px 0 0;
+                    color: $light-text;
+                    font-size: 0.67rem;
+                }
+            }
+        }
+    }
+
+    .view-all {
+        color: $primary-color;
+        margin-top: 10px;
+        display: inline-block;
+        font-weight: 500;font-size: 0.7rem;
+    }
+}

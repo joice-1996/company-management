@@ -1,0 +1,20 @@
+.filter-div {
+    padding: 15px;
+    background: $light-bg-color;
+    @include border-radius(6px);
+    margin: 20px 0;
+
+    .form-control,
+    .form-select {
+        font-size: 0.8rem;
+    }
+
+    .filter-action-btn {
+        margin-top: .6rem;
+
+        .btn {
+            line-height: 1.4;
+            font-size: 0.8rem;
+        }
+    }
+}
